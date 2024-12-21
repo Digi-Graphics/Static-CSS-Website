@@ -1,0 +1,43 @@
+title = "Deginner"
+baseurl = "http://deginner.com/"
+languageCode = "en-us"
+
+[params]
+  # Meta parameters.
+  language = "en"
+  encoding = "utf-8"
+  keywords = ["Python", "JavaScript", "Decentralized", "Decentralization", "System D", "Systeme D", "Blockchain", "open source"]
+  description = "Open source software development for decentralization, blockchains and system D"
+
+  # Top section of the website.
+  topAnchor = "top"
+  logo = "http://i.imgur.com/MINlVoa.png"
+  title = "Deginner"
+  tagline = "Building open source things and putting 'D's in the names instead of 'bit's and 'coin's"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[[menu.main]]
+  name = "Home"
+  weight = 1
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Projects"
+  weight = 2
+  identifier = "projects"
+  url = "/projects"
+
+[[menu.main]]
+  name = "Incubator"
+  weight = 3
+  identifier = "incubator"
+  url = "/incubator"
+
+[[menu.main]]
+  name = "Contact"
+  weight = 4
+  identifier = "contact"
+  url = "/contact"
